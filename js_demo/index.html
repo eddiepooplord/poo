@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eddie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/Javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>today we will poop</h1>
+    </div>
+    <div>
+        <h2>something about js</h2>
+        <p><a href="http://www.google.com" target="_blank" onclick="alert('warning! you are leaving my website'); alert('you sure brah')">Search Google</a></p>
+
+        <h2>math w js</h2>
+        <p>what is 5+6</p>
+        <button onclick="document.getElementById('add').innerHTML = 5+6">click here to find out</button>
+        <p id="add"></p>
+
+        <h2>something something</h2>
+        <button onclick="document.getElementById('date').innerHTML=Date()">click me for date and time</button>
+        <p id="date"></p>
+
+        <h2>chagne test</h2>
+        <button onclick="document.getElementById('change-text').innerHTML='sigmalord'">change text below</button>
+        <p id="change-text">pooop</p>
+
+        <h2>function</h2>
+        <p>function to add text</p>
+        <button onclick="pFun()">click me to run function</button>
+        <p id="p-fun"></p>
+
+        <h2>return user data</h2>
+        <button onclick="askName()">click here to enter name</button>
+        <p id="ask-name"></p>
+
+        <h2>poop</h2>
+        <button onclick="askQuestion()">click here for poop</button>
+        <p id="question"></p>
+
+        <h2>button click image</h2>
+        <button onclick="showImage()">click here for surprise</button>
+        <img id="skibidi toilet" src="" width="700px;">
+    </div>
+
+    <script>
+        function askName(){
+            var nameReturn=document.getElementById('ask-name');
+            var name = prompt('Please enter your name' , 'HERE');
+            if (name == ''){
+                alert('Please try again');
+            } else {
+                nameReturn.innerHTML = 'Hello ' + name + '! Nice to meet you';
+            }
+        }
+        function pFun() {
+            var p = document.getElementById('p-fun');
+            p.innerHTML = 'You just ran a function';
+            p.style.fontSize = '30px';
+            p.style.color= 'magenta';
+            p.style.textAlign = 'center';
+        }
+
+        alert('loopypoopyinmydookie') 
+    </script>
+</body>
+</html>

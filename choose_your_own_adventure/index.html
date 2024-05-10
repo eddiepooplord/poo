@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function playGame() {
+        var enter = confirm("you come across a mall, you need to use the restroom, do you want to go in?");
+        alert(enter);
+        if(enter ==true) {
+            //we enter the mall
+            alert("you decide to enter the mall and you see three places with a bathroom")
+
+            var optionChoice = prompt("Do you go to 1 (Public Bathroom), 2 (Starbucks), or 3 (keep exploring)?");
+            if (optionChoice == 1) {
+                alert("the public bathroom was clogged and the toilet exploded");
+            } else if (optionChoice == 2) {
+                alert("the starbucks bathroom was out of order but you decided to go in, the toilet exploded");
+            } else {
+                alert("you are able to hold it in and you decided to continue exploring for a bathroom");
+                var exploreChoice = prompt("You keep holding it in, and keep exploring, you start running as you can't hold it in much longer, you see Chic Fil A, Sephora, or you can keep exploring");
+                if (exploreChoice =="Chic Fil A") {
+                    alert("Its a Sunday, everyone knows Chic Fil A is closeed on a sunday, you just pooped yourself");
+                } else if (exploreChoice =="Sephora") {
+                    alert("Too many teenage girls! You try to make your way through but instead the girls start eating you, you die");
+                } else  {
+                    alert("You keep exploring, but you must go to the bathroom soon or else you will poop yourself, you continue exploring the mall");
+
+                    var explore2Choice = prompt("You walk deeper and deeper into the mall, you find a tree which seems like you can poop in it, the exit to go to the park, or you can keep exploring to find another more private place to poop, please type tree, park or keep exploring");
+                    if (explore2Choice == "tree") {
+                        alert("oh crap! you pooped in a tree and everyone started taking photos, you are now a viral sensation! Game Over");
+                    }   else if (explore2Choice == "park")  {
+                        alert("you defecate in the park, it was raining so thank golly gee goodness no kids were there, you survive!");
+                    }   else if (explore2Choice =="keep exploring")    {
+                        alert("you pooped your pants and since you were wearing white pants everyone could see your poop")
+                    }       
+                }
+            }
+        }
+        else {
+            //we do not enter the mall
+            alert("wow you just pooped your pants and everyone started laughing at you! Game over.");
+        }
+        var playAgain = confirm("do you want to play again");
+        if (playAgain ==true) {
+            playgame();
+        }
+    }
+        playGame();
+
+
+    </script>
+</body>
+</html>

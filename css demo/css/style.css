@@ -1,0 +1,48 @@
+multi-text {
+    color:blanchedalmond;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid chartreuse;
+    padding: 50x;
+    background-color: powderblue;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav li {
+        display:inline;
+        margin-right: 25px;
+}
+
+.nav a {
+    color:black;
+}
+.center-text {
+    text-align: center;
+}
+
+.my-first-div {
+    font-size: 40;
+    color:blanchedalmond;
+    background-color: black;
+}
+
+#span-1 {
+    color:chartreuse;
+    font-size:large;
+}
+
+#span-2 {
+    color:darkblue;
+    font-size:small;
+}
