@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    font-family: 'Circular std', sans-serif;
+}
+
+body.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0; 
+}
+body.uptome {
+    font-family: 'Circular std', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.review {
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    color: #ff9800;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.multi-text {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 200px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 10px solid rgb(246, 143, 143);
+    padding: 50px; 
+    background-color: white;
+    border-radius: 50px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 70px;
+}
+
+.nav a {
+    color: black;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.my-first-div {
+    font-size: 40px;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+#span-1 {
+    color: chartreuse;
+    font-size: large;
+}
+
+#span-2 {
+    color: darkblue;
+    font-size: small;
+}
+
